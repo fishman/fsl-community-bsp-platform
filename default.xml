@@ -6,6 +6,7 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://github.com/Freescale" name="freescale"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
+  <remote fetch="git://github.com/fishman" name="fishman"/>
 
   <project remote="yocto" revision="master" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="master" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
@@ -21,4 +22,6 @@
   <project remote="freescale" revision="master" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="freescale" revision="master" name="Documentation" path="sources/Documentation"/>
 
+  <project remote="fishman" revision="master" name="meta-kodi" path="sources/meta-kodi"/>
+  <project remote="fishman" revision="master" name="meta-udoo" path="sources/meta-udoo"/>
 </manifest>
